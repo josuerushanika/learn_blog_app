@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   # delete "/blog_posts/:id", to: "blog_posts#destroy"
   # post "/blog_posts", to: "blog_posts#create", as: :blog_posts
   
-   resources :blog_post
+   resources :blog_posts
    
   # Defines the root path route ("/")
    root "blog_posts#index"
